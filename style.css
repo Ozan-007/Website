@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Home Page Styling */
+header{
+    display:flex;
+    justify-content:space-between;
+    min-height:8vh;
+    align-items: center;
+    border-bottom:5px solid purple;
+}
+span{
+    margin-left: 1rem;
+    color:orange;
+}
+
+.nav{
+    display:flex;
+    list-style:none;
+    margin-right: 1rem;
+}
+li{
+    margin-left: 1rem;
+    font-size:1.5rem;
+}
+
+.main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 50vh;
+    background-image: url(images/showcase.jpg);
+}
+.content{
+    text-align:center;
+    color:white;
+}
+h1{
+font-size:4rem;
+}
+
+.subscribe{
+    border-bottom: 2px solid purple;
+}
+
+.newsletter{
+    display:flex;
+    justify-content:space-between;
+    min-height:5vh;
+    align-items:center;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+}
+button{
+    padding:0.3rem;
+    background-color:orange;
+}
+.logos{
+    display:flex;
+    justify-content:space-between;
+    margin:1rem;
+    align-items:flex-start;    
+    border-bottom: 2px solid red;
+}
+
+.logo{
+    text-align: center;
+    margin:1rem;
+}
+.logos img{
+    height:10vh;
+}
+
+footer{
+    text-align:center;  
+    font-size: 1rem;  
+}
