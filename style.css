@@ -101,3 +101,64 @@ footer{
 .whatWedo{
     margin-top:3rem;
 }
+
+/* Services Page */
+
+.area{
+    display: flex;
+    margin:0.5rem 0rem 0.5rem 2rem ;
+    justify-content:space-between;
+    min-height:73vh;
+
+}
+
+.services{
+    display:inline-flex;
+    min-width:50%;
+    flex-direction: column;
+}
+
+.headline{
+    margin-bottom: 1rem;
+}
+.offers{
+
+    margin:0.1rem;
+    padding:4vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    background-color:lightgray;
+}
+
+.website{
+margin-bottom: 1rem;
+}
+
+form{
+    display:block;
+    margin:1rem 3rem 3rem 3rem;
+    background-color: blue;
+    color: white;
+    min-width:28%;
+    height: 100%;
+}
+
+.quote{
+    margin: 1.5rem 0rem 1rem 1rem;
+    font-size: 20px;
+}
+label{
+    display: block;
+    margin-left: 1rem;
+}
+
+#name,#email,#message{
+    margin-left: 1rem;
+    width:80%;
+}
+
+.Send{
+    display:block;
+    margin-left: 1rem;
+}
+
