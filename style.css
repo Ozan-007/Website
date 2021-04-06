@@ -78,3 +78,26 @@ footer{
     text-align:center;  
     font-size: 1rem;  
 }
+
+/* About Us */
+
+.cont{
+    display:flex;
+    min-height: 75vh;    
+    text-align: start;
+}
+
+.about{
+    display:flex;
+    flex-direction: column;
+    margin: 1rem;
+    max-width: 50%;
+}
+
+.text{
+    margin-top: 1rem;
+    background-color:yellowgreen;
+}
+.whatWedo{
+    margin-top:3rem;
+}
